@@ -37,5 +37,5 @@ jobs:
         run: |
           sudo cp -p ./chromedriver /usr/bin/
           chmod -R 777 /usr/bin/chromedriver
-          # python ./appoint_sports.py ${{ secrets.USERNAME }} ${{ secrets.PASSWORD }}
+          python ./appoint_sports.py ${{ secrets.USERNAME }} ${{ secrets.PASSWORD }}
   
